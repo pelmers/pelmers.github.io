@@ -1,0 +1,3 @@
+[submodule "lib/bars.svg.js"]
+	path = lib/bars.svg.js
+	url = https://github.com/pelmers/bars.svg.js.git
