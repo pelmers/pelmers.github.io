@@ -52,7 +52,7 @@
     
     function repositionInfo() {
         // slide out the info box from the bottom
-        var containers = document.querySelectorAll(".col-sm-4");
+        var containers = document.querySelectorAll(".col-sm-6");
         for (var i = 0; i < containers.length; i++) {
             var first_image = containers[i].querySelector("img"),
                 info = containers[i].querySelector(".info"),
