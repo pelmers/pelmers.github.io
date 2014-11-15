@@ -12,7 +12,7 @@ function generateRandomData(minVal, maxVal, minBars, maxBars) {
         return "#"+red.toString(16)+green.toString(16)+blue.toString(16);
     }
     function randOpacity() {
-        return 0.5+0.5*Math.random();
+        return 0.8+0.2*Math.random();
     }
     var numBars = randRange(minBars, maxBars),
         colors = [],
