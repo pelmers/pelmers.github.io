@@ -33,7 +33,7 @@
             updateBarsFromRandomData(generateRandomData(0, 8, 5, 6));
         }, 1500);
     }
-    
+
     function updateBarsFromRandomData(data) {
         for (var i = 0; i < data.colors.length; i++) {
             barChart.setBarColor(data.colors[i].color, data.colors[i].opacity, i);
@@ -49,7 +49,7 @@
             toggleClassAmongChildren(containers[i], "img", "shown", interval);
         }
     }
-    
+
     function repositionInfo() {
         // slide out the info box from the bottom
         var containers = document.querySelectorAll(".col-sm-6");
