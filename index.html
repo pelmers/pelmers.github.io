@@ -1,96 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>pelmers</title>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-<link rel='stylesheet' type='text/css' href='/stylesheets/index.css'>
-</head>
-<body>
-    <div class="fullscreen" id="page1">
-        <div id="titleWrapper">
-            <div id="name">Peter Elmers</div>
-            <div id="whereabouts">
-                <span id="position">Software Developer</span>
-                <br><span id="school">Rice University, Houston, TX</span>
-            </div>
-            <div id="contactButtons">
-                <a href="https://github.com/pelmers"><img src="images/logos/GitHub-Mark-120px-plus.png" alt="GitHub profile"></a>
-                <a href="https://www.facebook.com/"><img src="images/logos/FB-f-Logo__blue_100.png" alt="Facebook profile"></a>
-                <a href="mailto:peter.elmers@yahoo.com?subject=Hi%20Peter!"><img src="images/logos/envelope-closed-6x.png" alt="Compose e-mail"></a>
-            </div>
-            <div id="about">
-                <h3>Hi, I'm <span style="font-weight:bold;">Peter</span>...</h3>
-                <div id="text">Currently a sophomore at Rice University anticipating a BS in Computer Science in 2017. You can see some of my recent projects <a href="#page2">below</a>. Feel free to shoot me an e-mail if you have any questions or if you'd just like to say hello.</div>
-            </div>
-        </div>
-    </div>
+---
+layout: default
+title: Home
+---
 
-    <div class="container-fluid" id="page2">
-        <div class="row">
-            <div class="col-sm-6 content_images">
-                <img src="/images/examples/planme/planme_homepage.png">
-                <img src="/images/examples/planme/ss1c.png">
-                <div class="info">
-                    <a href="http://plan-me.appspot.com"><h4>PlanMe</h4></a>
-                    Task planner and organizer
-                </div>
-                <img src="/images/examples/planme/ss3.png">
-            </div>
-            <div class="col-sm-6 content_images">
-                <img src="/images/examples/cram/cram1.png">
-                <img src="/images/examples/cram/cram2.png">
-                <img src="/images/examples/cram/cram3.png">
-                <div class="info">
-                    <a href="http://codecrammer.appspot.com/"><h4>CodeCrammer</h4></a>
-                    Fancy code minification
-                </div>
-                <img src="/images/examples/cram/cram4.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 content_images">
-                <img src="/images/examples/wave/wave%20%20-home-peter_004.png">
-                <img src="/images/examples/wave/wave%20%20-home-peter_005.png">
-                <img src="/images/examples/wave/wave%20%20-home-peter_006.png">
-                <div class="info">
-                    <a href="https://github.com/pelmers/wave"><h4 class="itemTitle">Wave</h4></a>
-                        Colored sine waves in the terminal
-                </div>
-                <img src="/images/examples/wave/wave%20%20-home-peter_007.png">
-            </div>
-            <div class="col-sm-6 content_images">
-                <img src="/images/examples/viz/poster.png">
-                <img src="/images/examples/viz/mergesort_graph.png">
-                <div class="info"><a href="http://dx.doi.org/10.1145/2660252.2660395"><h4 class="itemTitle">HJ-Viz</h4></a>
-                    Presented at SplashCon 2014
-                </div>
-                <img src="images/examples/viz/screen.png">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="info">
-                    <a href="https://github.com/pelmers/bars.svg.js"><h4 class="itemTitle">bars.svg.js</h4></a>
-                    Simple animated bar charts
-                </div>
-                <div id="barContainer"></div>
-            </div>
-            <div class="col-sm-6 content_images">
-                <img src="/images/examples/xq/mid.png">
-                <img src="/images/examples/xq/win.png">
-                <div class="info"><h4 class="itemTitle">Xiangqi</h4>
-                    Chinese Chess against a player or the AI
-                </div>
-                <img src="/images/examples/xq/start.png">
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src='/lib/bars.svg.js/bars.svg.js'></script>
-    <script src='/javascripts/class_toggling.js'></script>
-    <script src='/javascripts/random_data.js'></script>
-    <script src='/javascripts/index.js'></script>
-</body>
-</html>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
