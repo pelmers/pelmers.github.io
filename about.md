@@ -32,4 +32,8 @@ Feel free to shoot me an e-mail if you have any questions or if you'd just like 
 * [bars.svg.js](http://github.com/pelmers/bars.svg.js), simple to use animated bar charts
   - Updating values in the chart automatically triggers animations.
 
+### Links
+* [Github](https://github.com/pelmers)
+* Email: peter DOT elmers AT rice DOT edu
+
 Thanks for visiting!
