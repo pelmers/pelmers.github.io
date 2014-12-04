@@ -1,30 +1,35 @@
 ---
 layout: page
-title: About
+title: Who I Am
 ---
 
+### Hey there!
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<i>I'm Peter</i>, currently a sophomore at Rice University anticipating a BS in Computer Science in 2017.
+You can see some of my recent projects below.
+Feel free to shoot me an e-mail if you have any questions or if you'd just like to say hello.
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Some fairly recent projects
 
-There are currently two themes built on Poole:
+* [PlanMe](http://plan-me.appspot.com), short-term task planner
+  - Give it your calendar, what you need to do in the next 5 days and how long each task will take, and PlanMe fills in your calendar such that you complete tasks on time.
+  - Optionally indicate preferences such as preferring to work in the mornings or afternoons, or preferring to finish tasks right before they're due.
+* [CodeCrammer](http://codecrammer.appspot.com), creative code minifier
+  - Reshape and minify Javascript (other languages possibly coming soon) code into fun shapes.
+* [Int-en](http://int-en.appspot.com), numbers to English
+  - Convert any number to English: supports scientific notation, decimals, and negative numbers.
+  - Also supports evaluating simple mathematical expressions, such as `100**3000` (using Python notation)
+  - I'm not even sure what the upper bound is!
+* [HJ-Viz](http://dl.acm.org/citation.cfm?doid=2660252.2660395), tool to visualize the computational graphs of parallel programs
+  - Written for HJ-lib programs, the tool parses event logs generated at run time and reconstructs the computational graph.
+  - Web-based interface written in Python with Flask, with frontend code in Javascript.
+  - Presented at SPLASH conference 2014, Portland, US.
+* [Wave](http://github.com/pelmers/wave), make colored sine waves in the terminal
+  - Fun little program written in Go which draws sine waves down the terminal window indefinitely.
+  - Can customize amplitude, frequency, color, letters, and numbers of the waves.
+  - Written to learn goroutines: each sine wave runs in its own goroutine.
+* [bars.svg.js](http://github.com/pelmers/bars.svg.js), simple to use animated bar charts
+  - Updating values in the chart automatically triggers animations.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thanks for visiting!
