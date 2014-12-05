@@ -31,6 +31,8 @@ Feel free to shoot me an e-mail if you have any questions or if you'd just like 
   - Written to learn goroutines: each sine wave runs in its own goroutine.
 * [bars.svg.js](http://github.com/pelmers/bars.svg.js), simple to use animated bar charts
   - Updating values in the chart automatically triggers animations.
+* Contributing to open source! [DXR](http://dxr.mozilla.org), [Rust](http://www.rust-lang.org),
+    [Rice Elections](http://owlection.appspot.com), [others](https://github.com/pelmers)...
 
 ### Links
 * [Github](https://github.com/pelmers)
