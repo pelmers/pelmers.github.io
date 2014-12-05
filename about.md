@@ -12,12 +12,12 @@ Feel free to shoot me an e-mail if you have any questions or if you'd just like 
 
 ## Some fairly recent projects
 
-* [PlanMe](http://plan-me.appspot.com), short-term task planner
+* [PlanMe](http://planme.pelmers.com), short-term task planner
   - Give it your calendar, what you need to do in the next 5 days and how long each task will take, and PlanMe fills in your calendar such that you complete tasks on time.
   - Optionally indicate preferences such as preferring to work in the mornings or afternoons, or preferring to finish tasks right before they're due.
-* [CodeCrammer](http://codecrammer.appspot.com), creative code minifier
+* [CodeCrammer](http://codecrammer.pelmers.com), creative code minifier
   - Reshape and minify Javascript (other languages possibly coming soon) code into fun shapes.
-* [Int-en](http://int-en.appspot.com), numbers to English
+* [Int-en](http://int-en.pelmers.com), numbers to English
   - Convert any number to English: supports scientific notation, decimals, and negative numbers.
   - Also supports evaluating simple mathematical expressions, such as `100**3000` (using Python notation)
   - I'm not even sure what the upper bound is!
