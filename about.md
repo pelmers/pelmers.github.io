@@ -38,4 +38,4 @@ Feel free to shoot me an e-mail if you have any questions or if you'd just like 
 * [Github](https://github.com/pelmers)
 * Email: peter DOT elmers AT rice DOT edu
 
-Thanks for visiting!
+Thanks for visiting! :)
