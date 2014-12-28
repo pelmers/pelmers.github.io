@@ -3,7 +3,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            A little Experiment
+title:            pacman -Syu --force --noconfirm
 tagline:          pelmers
 url:              http://blog.pelmers.com
 paginate:         1
