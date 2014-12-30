@@ -20,4 +20,3 @@ github:
 pages_list:
   About: '/about'
   Feed: '/atom.xml'
-  Archive: '/archive'
