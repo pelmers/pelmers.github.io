@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            pacman -Syu --force --noconfirm
-tagline:          pelmers
+title:            The Standing Legume
+tagline:          not on a couch
 url:              http://blog.pelmers.com
 paginate:         1
 baseurl:          /
