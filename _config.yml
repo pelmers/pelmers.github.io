@@ -3,8 +3,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            The Standing Legume
-tagline:          not on a couch
+title:            new_one's home
+tagline:          A place for new things
 url:              http://blog.pelmers.com
 paginate:         1
 baseurl:          /
