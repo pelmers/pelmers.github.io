@@ -36,7 +36,9 @@ blur](http://en.wikipedia.org/wiki/Box_blur). We normalize the kernel by
 dividing by 9 to make sure that the output has the same relative magnitude as
 the input (i.e. the picture does not become brighter or darker).
 
-Here we delve into the details behind the process. Consider following along with a [sample image]
+Here we delve into the details behind the process. Consider following along
+with a [sample
+image](http://pelmers.github.io/autotoon/demo/demo.html?src=http://images.nationalgeographic.com/wpf/media-live/photos/000/899/cache/boy-courtyard-playing_89920_990x742.jpg)
 
 ### [Sobel Operator](https://github.com/pelmers/autotoon/blob/7b01066e8b4a92c3ae7c9b34c8adc6899b9fbae3/filters.js#L77-L96)
 The star of the show in this section is the [Sobel
