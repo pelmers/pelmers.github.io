@@ -5,9 +5,8 @@ title: Who I Am
 
 ### Hey there!
 <p class="message">
-<i>I'm Peter</i>, currently a sophomore at Rice University anticipating a BS in Computer Science in 2017.
-You can see some of my recent projects below.
-Feel free to shoot me an e-mail if you have any questions or if you'd just like to say hello.
+I'm Peter, and you can see some of my recent projects below. Feel free to shoot
+me an e-mail if you have any questions or just to say hi.
 </p>
 
 ## Some fairly recent projects

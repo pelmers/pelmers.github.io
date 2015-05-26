@@ -4,7 +4,8 @@ relative_permalinks: true
 
 # Setup
 title:            new_one's home
-tagline:          A place for new things
+markdown:         kramdown
+tagline:          Stuffs and things
 url:              http://blog.pelmers.com
 paginate:         1
 baseurl:          /
