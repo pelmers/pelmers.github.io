@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            new_one's home
 markdown:         kramdown
 tagline:          Stuffs and things
-url:              http://blog.pelmers.com
+url:              http://blerg.pelmers.com
 paginate:         1
 baseurl:          /
 author:

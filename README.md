@@ -1,1 +1,1 @@
-Source for my blog, [new_one's home](http://pelmers.github.io/).
+Source for my blerg, [new_one's home](http://pelmers.github.io/).
