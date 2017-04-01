@@ -12,7 +12,8 @@ Graphs/maths
 
 bookview
 MACHINE LEARRN AUTO COMMENTING
-"FORWARD BUTTON"
+"FORWARD BUTTON" (google for keywords and click top result?)
+ - define keywords: nouns that greatly exceed expected frequency
 "pages that link here addon"
 
 
@@ -26,11 +27,22 @@ history map
 
 brutalist web design
 
-"a little motivation is all you need to do something"
-watch out for questions that have an answer already given... question questions
-
 log most commonly used sites, histogram? history graph?
 
 web site recommendations
+ml: internet graph, domain indegree weight? some on demand? probablistic estimations for whether two sites are connected (lossy graph compression, on-device recommendation engine)? (???)
 
 machine learned image edits (polarr?)
+
+find routes on map that match a shape
+
+running: relive route with google street view?
+
+cap cap cap idea
+
+given video, extract some "highlights"
+- https://pdfs.semanticscholar.org/084d/785042883654efa399bf9074ebba9c9c93a1.pdf
+
+multilingual translator extension
+
+webgl? 3d tetris or bullet hell something
