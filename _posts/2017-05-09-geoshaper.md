@@ -2,11 +2,6 @@
 layout: post
 title: Shape matching on road maps
 ---
-TODO: delete this part. This post describes how I construct the map matrix for
-performing shape matching on road maps. Part 2 may come soon describing the
-remainder of the process of finding an arbitrary user-defined shape on a city's
-road map.
-
 [Geogrid](https://crates.io/crates/geogrid) is a rust library which
 approximately quantizes map data into a two-dimensional grid. I suggest such a
 representation has application for visualization or applying image processing
