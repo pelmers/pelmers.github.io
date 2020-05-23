@@ -23,6 +23,6 @@ title: Who I Am
 ### Links
 
 * [Github](https://github.com/pelmers)
-* Email: peter DOT elmers AT rice DOT edu
+* Email: peter AT pelmers DOT com
 
 Thanks for visiting! :)
